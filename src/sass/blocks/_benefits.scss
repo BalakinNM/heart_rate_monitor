@@ -33,3 +33,36 @@
 		}
 	}
 }
+
+@media (max-width: 991px) {
+	.benefits {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+@media (max-width: 767px) {
+	.benefits {
+		&__icons {
+			max-width: 25%;
+		}
+	}
+}
+
+@media (max-width: 575px) {
+	.benefits {
+		padding: 30px 10px;
+		&__wrapper {
+			flex-wrap: wrap;
+			justify-content: center;
+			margin-top: 10px;
+		}
+		&__icons {
+			max-width: 100%;
+			margin-top: 10px;
+		}
+		&__subtitle {
+			margin-top: 10px;
+		}
+	}
+}

@@ -21,7 +21,13 @@
         font-weight: 500;
         font-size: 16px;
     }
+    &_mini {
+        width: 131px;
+        height: 40px;
+        font-size: 14px;
+    }
 }
+
 @media (max-width: 767px) {
     .button {
         width: 125px;
