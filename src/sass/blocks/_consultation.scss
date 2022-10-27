@@ -11,8 +11,11 @@
 }
 @media (max-width: 991px) {
     .consultation {
+        padding-left: 10px;
+		padding-right: 10px;
         &__descr {
             text-align: center;
+            
         }
     }
 }
@@ -24,12 +27,9 @@
             font-size: 14px;
             line-height: 20px;
         }
+        .feed-form {
+            width: 280px;
+        }
     }
 }
 
-@media (max-width: 991px) {
-	.consultation {
-		padding-left: 10px;
-		padding-right: 10px;
-	}
-}

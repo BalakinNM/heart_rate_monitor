@@ -12,7 +12,7 @@ const slider = tns({
             gutter: 20,
             items: 1
         },
-        768: {
+        767: {
             gutter: 30,
             autoplay: false
         },
