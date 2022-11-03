@@ -32,6 +32,14 @@
 			color: #FF0000;
 		}
 	}
+	&__icon {
+		&_animated {
+			animation: heartbit 2s ease infinite;
+			&:hover {
+				animation-play-state: paused;
+			}
+		}
+	}
 }
 
 @media (max-width: 991px) {
